@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Poppins;
+    src: url(https://fonts.google.com/selection?query=poppins);
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.flex-container div {
+    margin: 15px;
+    padding: 1px;
+}
+.card{
+    width: 320px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 20px;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.card h3{
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+.card p{
+    color: #667;
+    font-size: 20px;
+    line-height: 1.2;
+}
+body{
+    background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148910071.jpg);
+}
